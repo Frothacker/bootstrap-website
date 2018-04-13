@@ -40,107 +40,98 @@
 
 }
 #hero p {
-  padding-top: 15px;
+  padding-top: 0px;
+  padding-left: 1%;
   color: #F9FCFC;
   font-weight: thin;
   font-size: 18px;
+
 }
 
 
 /*about section*/
 
 #about {
-  margin: 0px;
-  padding: 40px;
+  margin: 0%;
+  padding: 5%;
   background-color: lightgrey;
   text-align: left;
 }
 
 #about h2 {
-  margin: 50px;
-  margin-bottom: 40px;
+  margin: 7%;
+  margin-bottom: 10%;
   font-size: 55px;
   font-weight: bold;
 }
 
+#about .darker {
+  color: #1AA37A;
+}
+
 #about p {
-  margin-left: 80px;
+  margin-left: 7%;
 }
 
 #about img {
   /*padding: 10%;*/
   /*padding-top: 80px;*/
   width: 80%;
+  max-width: 400px;
   height: auto;
   position: static;
-  margin-top: 30%;
+  /*margin-top: 30%;*/
 }
-
-#about .world {
-  
-}
-
 
 
 /*small works section*/
 
 #smallworks {
-  margin: 0px;
-  padding: 40px;
   background-color: #dee2e6;
+  text-align: left;
 }
-
-#smallworks > .col-sm-6.col-md-3 > .thumbnail >img{
-  max-width: 80%;
-  height: auto;
-  padding: 5px;
-  padding-bottom: 20px;
-  align-self: center;
-}
-
-/* text in smallworks */
-#smallworks > .col-sm-6.col-md-3 > .thumbnail {
-  
-}
-
 
 #smallworks h2{
-  margin: 38px;
-  margin-bottom: 60px;
+  margin: 4%;
+  margin-bottom: 7%;
   font-size: 30px;
   font-weight: bold;
 }
 
-
-
 /*works section*/
 
-#works {
-  margin: 0px;
-  padding: 40px;
-  background-color: white;
-  text-align: left;
-}
 
-#works h2{
-  margin: 70px;
-  margin-bottom: 90px;
+/* HEADINGs */
+#works h2, #smallworks h2{
+  margin: 7%;
+  margin-bottom: 10%;
   font-size: 55px;
   font-weight: bold;
 }
 
-#works.row > .col-sm-6.col-md-4 > .thumbnail >img{
-  max-width: 95%;
-  height: auto;
-  
-  padding-bottom: 30px;
+/*for the whole span*/
+#works, #smallworks{
+  margin: 0%;
+  padding: 3%;
 }
 
-#works.row > .col-sm-6.col-md-4 > .thumbnail{
-  max-width: 85%;
+/* for the individual columns */
+#works .thumbnail, #smallworks .thumbnail{
+  width: 90%;
+  max-width: 400px;
   height: auto;
-  padding: 20px;
-  padding-bottom: 30px;
+  padding: 2%;
+  padding-bottom: 4%;
+  position: static;
+}
+
+/* image */
+#works img, #smallworks img{
+  width: 95%;
+  max-width: 400px;
+  height: auto;
+  padding-bottom: 4%;
+  position: static;
 }
 
 
