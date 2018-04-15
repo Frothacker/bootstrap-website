@@ -1,146 +1,213 @@
 
-/* navbar */
-#navigation{
+/* NAVBAR             --------------------------------------------------*/
+.navbar {
   background-color: #2D2D2F; 
-  padding-left: auto;
+  padding-left: 2vw;
   position: sticky;
-  border-bottom: 20px;
-  border-color: #F9FCFC;
-  border-bottom-style: line;
 }
 
 /* nav links*/
 
-#navlink{
+.navbar a{
   color: white;
-  padding: 11px 35px;
-  padding-left: 30px;
+  padding: 11px 2vw;
 }
 
-#navlink:hover {
+.navbar a:hover {
   color: #20c997;
 }
 
 
-/*hero*/
+/*HERO                --------------------------------------------------*/
 
-#hero {
+.jumbotron {
   background-image: url("background.jpg");
   margin: 0%;
-  padding: 10%;
-  padding-bottom: 27%;
+  padding: 9%;
+  padding-top: 17%;
+  padding-bottom: 30%;
   border-radius: 0%;
   color: transparent;
+  max-height: 723px;
 }
 
-#hero h1 {
+.jumbotron h1 {
   color: #F9FCFC;
   font-weight: bolder;
-  font-size: 90px;
+  font-size: 8.7vw;
 
 }
-#hero p {
-  padding-top: 15px;
+.jumbotron p {
+  padding-top: 0px;
+  padding-left: 1%;
   color: #F9FCFC;
   font-weight: thin;
   font-size: 18px;
+
+}
+/*just for the vision sentence*/
+#invisi-link{
+  font-weight: normal;
 }
 
-
-/*about section*/
-
-#about {
-  margin: 0px;
-  padding: 40px;
-  background-color: lightgrey;
-  text-align: left;
-}
-
-#about h2 {
-  margin: 50px;
-  margin-bottom: 40px;
-  font-size: 55px;
-  font-weight: bold;
-}
-
-#about p {
-  margin-left: 80px;
-}
-
-#about img {
-  /*padding: 10%;*/
-  /*padding-top: 80px;*/
-  width: 80%;
-  height: auto;
-  position: static;
-  margin-top: 30%;
-}
-
-#about .world {
-  
-}
-
-
-
-/*small works section*/
-
-#smallworks {
-  margin: 0px;
-  padding: 40px;
-  background-color: #dee2e6;
-}
-
-#smallworks > .col-sm-6.col-md-3 > .thumbnail >img{
-  max-width: 80%;
-  height: auto;
-  padding: 5px;
-  padding-bottom: 20px;
-  align-self: center;
-}
-
-/* text in smallworks */
-#smallworks > .col-sm-6.col-md-3 > .thumbnail {
-  
-}
-
-
-#smallworks h2{
-  margin: 38px;
-  margin-bottom: 60px;
-  font-size: 30px;
+#invisi-link2{
+  color: #F9FCFC;
   font-weight: bold;
 }
 
 
+/* .row style         --------------------------------------------------*/
 
-/*works section*/
-
-#works {
-  margin: 0px;
-  padding: 40px;
+.row {
   background-color: white;
   text-align: left;
+  padding: 3%;
+
 }
 
-#works h2{
-  margin: 70px;
-  margin-bottom: 90px;
-  font-size: 55px;
+
+.row h2{
+  margin: 7%;
+  margin-left: 0%;
+  margin-bottom: 10%;
+  font-size: 5.5vw;
   font-weight: bold;
 }
 
-#works.row > .col-sm-6.col-md-4 > .thumbnail >img{
-  max-width: 95%;
+/* for the individual columns */
+.row .thumbnail{
+  width: 90%;
   height: auto;
-  
-  padding-bottom: 30px;
+  padding: 2%;
+  padding-bottom: 6%;
+  position: static;
+
 }
 
-#works.row > .col-sm-6.col-md-4 > .thumbnail{
-  max-width: 85%;
+/* image */
+.row img{
+  width: 95%;
+  max-width: 400px;
   height: auto;
-  padding: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 4%;
+  position: static;
 }
+
+
+
+/*ABOUT              --------------------------------------------------*/
+
+/* applied to all three about sections*/
+.about{
+  padding:0%;
+  background-color: teal;
+  text-align: left;
+}
+
+.about h2 {   
+  margin: 0%;
+  margin-bottom: 5%;
+  font-size: 4.5vw;
+  font-weight: bold;
+}
+
+.about .darker {
+  color: #1FC190;
+}
+
+.about img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  position: static;
+  padding-top: 5%;
+}
+
+.about .thumbnail{
+  margin: 10%;
+}
+
+
+/* im from    -------------------------*/
+.im-from {
+background-color:  #F8FCFC;
+padding-top: 4.5%;
+}
+
+.im-from p, h2, h3{
+  color: #191C21;
+}
+
+
+/* i like     -------------------------*/
+.i-like{
+  background-color: #C2C6C6;
+  text-align: center;
+}
+
+.i-like .thumbnail {
+  padding-right: 10%;
+}
+
+.i-like h2 {
+  text-align: left;
+}
+.i-like h3 {
+  text-align: center;
+  font-size: 2.8vw;
+}
+
+.i-like a{
+  color: #4D9AC6;
+}
+
+/*brain image*/
+ .i-like img{
+  margin-top: 23.5%;
+  margin-left: 12%;
+ }
+
+
+/*vision      -------------------------*/
+.vision{
+  background-color: #F9FCFC;
+}
+
+.vision img{
+  padding-top: 33%;
+}
+
+/*WORKS               --------------------------------------------------*/
+
+.works .thumbnail{
+  float: right;
+}
+
+.works h2{
+  margin: 6%;
+  margin-bottom: 8%;
+}
+
+
+
+/*SMALLER WORKS       --------------------------------------------------*/
+
+/*for the whole span*/
+.smaller-works .thumbnail{
+  float: right;
+}
+
+
+
+/* styling for smallerworks heading*/
+.smaller-works h2{
+  margin: 6%;
+  margin-bottom: 8%;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+
+
 
 
