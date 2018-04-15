@@ -2,7 +2,7 @@
 /* NAVBAR             --------------------------------------------------*/
 .navbar {
   background-color: #2D2D2F; 
-  padding-left: auto;
+  padding-left: 2vw;
   position: sticky;
 }
 
@@ -10,8 +10,7 @@
 
 .navbar a{
   color: white;
-  padding: 11px 35px;
-  padding-left: 30px;
+  padding: 11px 2vw;
 }
 
 .navbar a:hover {
@@ -24,7 +23,7 @@
 .jumbotron {
   background-image: url("background.jpg");
   margin: 0%;
-  padding: 10%;
+  padding: 9%;
   padding-top: 17%;
   padding-bottom: 30%;
   border-radius: 0%;
@@ -35,7 +34,7 @@
 .jumbotron h1 {
   color: #F9FCFC;
   font-weight: bolder;
-  font-size: 8vw;
+  font-size: 8.7vw;
 
 }
 .jumbotron p {
@@ -45,6 +44,15 @@
   font-weight: thin;
   font-size: 18px;
 
+}
+/*just for the vision sentence*/
+#invisi-link{
+  font-weight: normal;
+}
+
+#invisi-link2{
+  color: #F9FCFC;
+  font-weight: bold;
 }
 
 
@@ -89,15 +97,14 @@
 
 /*ABOUT              --------------------------------------------------*/
 
-/* all three sections*/
+/* applied to all three about sections*/
 .about{
-  margin: 4%;
-  padding: 5%;
-  background-color: darkgrey;
+  padding:0%;
+  background-color: teal;
   text-align: left;
 }
 
-.about h2 {
+.about h2 {   
   margin: 0%;
   margin-bottom: 5%;
   font-size: 4.5vw;
@@ -105,7 +112,7 @@
 }
 
 .about .darker {
-  color: #1AA37A;
+  color: #1FC190;
 }
 
 .about img {
@@ -113,44 +120,89 @@
   max-width: 400px;
   height: auto;
   position: static;
+  padding-top: 5%;
 }
 
 .about .thumbnail{
-  margin-bottom: 10%;
+  margin: 10%;
 }
 
-/* im from */
+
+/* im from    -------------------------*/
 .im-from {
-
+background-color:  #F8FCFC;
+padding-top: 4.5%;
 }
 
-/* i like */
- .i-like{
-  
+.im-from p, h2, h3{
+  color: #191C21;
+}
+
+
+/* i like     -------------------------*/
+.i-like{
+  background-color: #C2C6C6;
+  text-align: center;
+}
+
+.i-like .thumbnail {
+  padding-right: 10%;
+}
+
+.i-like h2 {
+  text-align: left;
+}
+.i-like h3 {
+  text-align: center;
+  font-size: 2.8vw;
+}
+
+.i-like a{
+  color: #4D9AC6;
+}
+
+/*brain image*/
+ .i-like img{
+  margin-top: 23.5%;
+  margin-left: 12%;
  }
 
-/*vision*/
-.vision .thumbnail{
-  margin-bottom: 8%;
+
+/*vision      -------------------------*/
+.vision{
+  background-color: #F9FCFC;
+}
+
+.vision img{
+  padding-top: 33%;
 }
 
 /*WORKS               --------------------------------------------------*/
 
+.works .thumbnail{
+  float: right;
+}
 
+.works h2{
+  margin: 6%;
+  margin-bottom: 8%;
+}
 
 
 
 /*SMALLER WORKS       --------------------------------------------------*/
 
 /*for the whole span*/
-.smaller-works{
-   
+.smaller-works .thumbnail{
+  float: right;
 }
+
+
 
 /* styling for smallerworks heading*/
 .smaller-works h2{
-  margin: 4%;
-  margin-bottom: 7%;
+  margin: 6%;
+  margin-bottom: 8%;
   font-size: 4vw;
   font-weight: bold;
 }

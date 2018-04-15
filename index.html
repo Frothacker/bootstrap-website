@@ -21,25 +21,28 @@
 <body>
   <div id="top"></div>
 
+  <nav class="navbar navbar-expand fixed-top">
+    <div>
+      <div class="navbar-nav">
+        <a class="left" href="#top">Top</a>
+        <a class="right" href="#about">About</a>
+        <a class="right" href="#skills">Skills</a>
+        <a class="right" href="#works">Works</a>
+        <a class="right" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
   <div class="jumbotron" >
     <div  class="container">
-    <h1>Finn Rothacker</h1> 
-    <p>I'm a junior developer with a <a  class="link" href="#vision">Vision</a>. Sound good? 
+    <h1><a id="invisi-link2" href="#about">Finn Rothacker</a></h1> 
+    <p>I'm a junior developer with a<a id="invisi-link" href="#vision"> vision.</a></br>
+      Sound good? 
       <a href="#contact">Lets get building</a></p> 
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-sm fixed-top">
-    <div>
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="#top">Top</a>
-        <a class="nav-item nav-link" href="#about">About</a>
-        <a class="nav-item nav-link" href="#skills">Skills</a>
-        <a class="nav-item nav-link" href="#works">Works</a>
-        <a class="nav-item nav-link" href="#contact">Contact</a>
-      </div>
-    </div>
-  </nav>
+  
 
   <div id="about" class="row about">
     <div class="col-sm-12 col-md-8 im-from">
@@ -52,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-4">
+    <div class="col-sm-12 col-md-4 im-from">
       <div class="thumbnail">
         <div class="caption">
           <img src="australia.png" alt="content">
@@ -63,49 +66,60 @@
     <div class="col-sm-12 col-md-4 i-like">
       <div class="thumbnail">
         <div class="caption">
-          <img src="brain.png" alt="content">
+          <img src="blue-brain.png" alt="content">
         </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-8">
+    <div class="col-sm-12 col-md-8 i-like">
       <div class="thumbnail">
         <div class="caption">
           <h2>I Enjoy </h2> 
           <h3>Learning. </h3>
-          <p>At the moment I'm learning to create pleasurable UX experiences, and program an effective backend to match.</p>
-          <p>I'm always learning to challenge my own perspective and to have empathy and<a class="darker" href="https://www.ted.com/topics/philanthropy">  generosity</a>  towards others.</p>
-          <p>On a lighter note, I'm learning solidity, the programing language for the Etherem Blockchain. This is challenging to fit in on top of 8 hour class days, the <a class="darker" href="https://www.google.com.ph/search?ei=BWrQWpybDsaE8gX5zbSoDw&q=eureka&oq=eureka&gs_l=psy-ab.3..0i131i46i67k1j46i131i67k1l2j0i67k1l6j0j0i67k1j0.7724.7816.0.8026.2.2.0.0.0.0.189.189.0j1.1.0....0...1c.1.64.psy-ab..1.1.188....0.opXXr09K8vU">eureka</a> moments make it all worth it. </p>
+          <p>Bill Gates reads<a href="https://www.nytimes.com/2016/01/04/fashion/bill-gates-gates-notes-books.html?smid=tw-nytimes&smtyp=cur&_r=0"> 50 books a year</a>, Obama praises</a> reading and Elon Musk alegedly <a href="https://medium.com/@michaeldsimmons/how-elon-musk-learns-faster-and-better-than-everyone-else-a010a4f586ef">read two books</a> a day in his teenage years. If they can do it, I can do it.</p>
+          <p> In my spare time I'm learning solidity from a possibly pirated Udemy course, and in other moments I listen to podcasts like The Money and <a href="http://www.abc.net.au/radionational/programs/philosopherszone/">The Philosopher's Zone</a> from ABC Radio National.</p>
         </div>
       </div>
     </div>
+    
     <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
-    <vision id="vision"> </vision>
-    <div class="col-sm-12 col-md-8">
-      <div class="thumbnail">
-        <div class="caption">
-          <h2>I Aim To</h2> 
-          <p>Learning new things</p>
-          <p>Think about why I do</p>
-          <p>Right now, I'm taking a 6 month <a class="darker" href="https://www.ikigaidojo.io/">Bootcamp</a> to learn Web Development.</p>
-          <!-- <p><a href="https://github.com/Frothacker" class="btn btn-primary" role="button">Optional button</a> </p> -->
+      <div class="col-sm-12 col-md-8 vision" id="vision">
+        <div class="thumbnail">
+          <div class="caption">
+            <h2>I Aim To</h2> 
+            <div>
+              <strong>Learn fullstack web development (time: right now)</strong>
+              <p>Milestone: finishing the Bootcamp I'm currently enrolled in. It ends with a month internship starting July. Looking for switched-on employees? <a href="#contact">How about me.</a> </p>
+              
+              <strong>Learn Solidity (by this July)</strong>
+              <p>Milestone: Write a useful smart contract on the Ethereum Blockchain (by the end of this year)</br>I want to create good and useful applications of blockchain tech, like better efficiency in hospitals, and distributed AI.</p>
+
+              <strong>Learn Deep Learning (from 2019 till I get it)</strong>
+              <p>Best milestone: Work with top people to ensure that <a href="https://openai.com/">Artificial General Intelligence</a> is good by 2030-2050  (hence save the world).</p>
+
+              <strong>Start a business, at some point, hear me out</strong>
+              <p>Starting or joining a business allows me to solve bigger problems: I can compound results by colaborating with like-minded people, and I can build structures that work much better than I do. </p>
+
+            </div>
+            <!-- <p><a href="https://github.com/Frothacker" class="btn btn-primary" role="button">Optional button</a> </p> -->
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-sm-12 col-md-4">
-      <div class="thumbnail">
-        <div class="caption">
-          <img src="australia.png" alt="content">
+      <div class="col-sm-12 col-md-4 vision">
+        <div class="thumbnail">
+          <div class="caption">
+            <img src="ai.png" alt="content">
+          </div>
         </div>
       </div>
-    </div>
+      
   </div> <!-- col div -->
   
-  <div id="works" class="row">
+  <div id="works" class="row works">
     <h2 class="col-sm-12">Things I've Made</h2> 
 
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <img src="stock.jpg" alt="content">
+        <img src="stock.jpg" alt="stock photo">
         <div class="caption">
           <h3>Work number one</h3>
           <p>I did some good work, it was difficult becasue of this reason, however fulfilling because I did this.</p>
@@ -117,7 +131,7 @@
 
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <img src="stock.jpg" alt="content">
+        <img src="stock.jpg" alt="stockphoto">
         <div class="caption">
           <h3>Work number two</h3>
           <p>I did some good work, it was difficult becasue of this reason, however fulfilling because I did this.</p>
@@ -129,7 +143,7 @@
 
     <div class="col-sm-6 col-md-4">
       <div class="thumbnail">
-        <img src="stock.jpg" alt="content">
+        <img src="stock.jpg" alt="stock photo">
         <div class="caption">
           <h3>Work number three</h3>
           <p>I did some good work, it was difficult becasue of this reason, however fulfilling because I did this.</p>
