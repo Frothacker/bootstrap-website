@@ -177,6 +177,10 @@ padding-top: 4.5%;
   padding-top: 33%;
 }
 
+.vision .thumbnail{
+  margin-bottom: 2.5%;
+}
+
 /*WORKS               --------------------------------------------------*/
 
 .works .thumbnail{
